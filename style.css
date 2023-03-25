@@ -21,6 +21,8 @@ img {
 /*refers to input fields*/
 
 form .userinfo {
+    flex-direction: column;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 2rem;
@@ -74,10 +76,8 @@ label {
     margin-left: 1rem;
 }
 
-@media screen and (max-width: 600px) {
-
-    .userinfo {
-        width: 100%;
-        margin-top: 0;
-    }
+.error-message {
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: red;
 }
