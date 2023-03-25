@@ -1,3 +1,83 @@
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1vw
+}
+
+/* contains all elements in body*/
+
 .container {
+    max-width: 100%;
+    min-height: 100vh;
     display: flex;
+}
+
+/* plant image*/
+
+img {
+    height: 100%;
+    max-width: 100%;
+}
+
+/*refers to input fields*/
+
+form .userinfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header that has description of the service */
+
+.header {
+
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+/*introduces form */
+
+.intro {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+/* where you enter create account*/
+
+.account {
+
+    margin-top: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #596D48;
+    color: white;
+    margin-left: 2rem;
+}
+
+div .account h5 {
+    margin-left: 2rem;
+}
+
+div .account a {
+    color: #596D48;
+}
+
+label {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .userinfo {
+        width: 100%;
+        margin-top: 0;
+    }
 }
